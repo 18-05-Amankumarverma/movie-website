@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  position: absolute;
+  padding: 12px 0px;
+  width: 100%;
+}
+header .logo {
+  text-shadow: 0px 0px 5px #1b1b1b;
+  font-weight: 700;
+  color: #fff;
+  font-size: 40px;
+}
+header .links {
+  padding: 17px 0px;
+}
+header .links nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .links nav ul {
+  list-style: none;
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+header .links nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+header .btn-groups {
+  padding: 13px 0px;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+header .btn-groups button {
+  border-radius: 14px;
+  border: none;
+  background-color: transparent;
+  height: 35px;
+  width: 90px;
+  border: 0.8px solid #fff;
+}
+header .btn-groups button a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+.landing-page {
+  width: 100%;
+  background-image: url("https://wallpapercave.com/wp/wp6157200.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page .points-and-ranking {
+  color: #fff;
+}
+.landing-page .points-and-ranking a {
+  color: #1b1b1b;
+  padding: 6px 13px;
+  font-weight: 800;
+  border-radius: 7px;
+  background-color: yellow;
+  margin-right: 10px;
+}
+.landing-page .points-and-ranking .circle {
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 0px 7px;
+}
+.landing-page .landing-page-flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 480px;
+}
+.landing-page .landing-page-flex-box .banner-image-description .points-and-ranking {
+  padding: 15px 0px;
+}
+.landing-page .landing-page-flex-box .banner-image-description h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 80px;
+  padding: 15px 0px;
+}
+.landing-page .landing-page-flex-box .banner-image-description p {
+  color: white;
+  text-align: justify;
+}
+.landing-page .landing-page-flex-box .banner-image-description .banner-btns {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0px;
+}
+.landing-page .landing-page-flex-box .banner-image-description .banner-btns button {
+  height: 50px;
+  width: 150px;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+.landing-page .landing-page-flex-box .banner-image-description .banner-btns button a {
+  text-decoration: none;
+}
+.landing-page .landing-page-flex-box .banner-btns button:first-child {
+  background-color: transparent;
+  color:white;
+  border: 0.8px solid #fff;
+}
+.landing-page .landing-page-flex-box .banner-btns button:first-child a {
+  color: #fff;
+}
+.landing-page .landing-page-flex-box .banner-btns button:last-child {
+  background-color: rgb(215, 195, 46);
+}
+.landing-page .landing-page-flex-box .banner-btns button:last-child a {
+  color: #000;
+  font-weight: 700;
+}
+.landing-page .movies-box-scroller {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 25px;
+  overflow: hidden;
+  justify-content: center;
+  width: 100%;
+}
+.landing-page .movies-box-scroller div {
+  width: 222px;
+  height: 300px;
+  box-shadow: 0px 0px 10px #1b1b1b;
+  border-radius: 10px;
+}
+.landing-page .movies-box-scroller div img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+@media screen and (max-width:686px){
+  .for-mobile{
+    
+    padding: 228px 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .landing-page .movies-box-scroller {
+    flex-wrap: wrap;
+}
+}
+
+/*# sourceMappingURL=index.css.map */
